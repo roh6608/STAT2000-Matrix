@@ -5,7 +5,7 @@ rm -r results
 
 mkdir results 
 
-for((counter=1;counter=$1;counter++))
+for((counter=1;counter<=$1;counter++))
 do
 cd ./C && gcc mat.c -o c-mat && ./c-mat "./c-results${counter}.txt" && cd .. && echo "C-lang Complete"
 
