@@ -31,4 +31,4 @@ for(q in 1:iter){
 }
 
 args = commandArgs(trailingOnly = T)
-writeLines(times,args[1])
+write.table(times,args[1])
