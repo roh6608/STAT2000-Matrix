@@ -2,10 +2,9 @@
 
 echo "Deleting previous experiment results"
 rm -r results
+mkdir results
 
-mkdir results 
-
-for((i=counter;counter=$1;counter++))
+for((counter=1;counter<=$1;counter++))
 do
 cd ./C && gcc mat.c -o c-mat && ./c-mat "./c-results${counter}.txt" && cd .. && echo "C-lang Complete"
 

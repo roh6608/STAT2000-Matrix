@@ -9,7 +9,6 @@ int main(int argc, char *argv[]){
 	int i, j, k, q;
 	int mat1[MAT_SIZE][MAT_SIZE], mat2[MAT_SIZE][MAT_SIZE], ans[MAT_SIZE][MAT_SIZE];
 	clock_t start, end;
-	clock_t times[ITER];
 	FILE *results;
 
 	results = fopen(argv[1], "w");
@@ -32,7 +31,6 @@ int main(int argc, char *argv[]){
 		}
 	}
 	end = clock();
-	times[q]= ((double)end-(double)start)/CLOCKS_PER_SEC;
 	fprintf(results,"%f\n",((double)end-(double)start)/CLOCKS_PER_SEC);
 	}
 	fclose(results);
