@@ -1,5 +1,6 @@
 #!/bin/bash
-
+echo "Updating repository to latest"
+git pull
 echo "Deleting previous experiment results"
 rm -r results
 mkdir results
