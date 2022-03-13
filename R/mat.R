@@ -1,6 +1,6 @@
 # define sizes
 matSize = 250
-iter = 30
+iter = 10
 
 # initialise matrices and vector
 mat1 = matrix(0,nrow=matSize,ncol=matSize)
