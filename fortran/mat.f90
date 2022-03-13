@@ -1,7 +1,7 @@
 program mat
 	implicit none
 	
-	integer :: i,j,k,q, MAT_SIZE=250, ITER=30
+	integer :: i,j,k,q, MAT_SIZE=250, ITER=10
 	real :: rand, start, finish
 	character(len=32) :: arg
 	integer, dimension(250,250) :: mat1, mat2, ans
