@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 #define MAT_SIZE 250
-#define ITER 10
+#define ITER 30
 
 int main(int argc, char *argv[]){
 	int i, j, k, q;
