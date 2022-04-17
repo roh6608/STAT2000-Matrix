@@ -1,6 +1,6 @@
 # defining sizes
 matSize = 250
-iter = 10
+iter = 30
 
 # initialising matrices
 mat1 = zeros(Int32,matSize,matSize)
