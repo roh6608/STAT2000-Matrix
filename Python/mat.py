@@ -3,7 +3,7 @@ import time as t
 import sys as s
 
 matSize = 250
-iters = 10
+iters = 30
 times = np.zeros(iters)
 
 for q in range(iters):
